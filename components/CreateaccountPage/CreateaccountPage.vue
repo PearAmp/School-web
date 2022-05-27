@@ -1,7 +1,7 @@
 <template>
 <div class="container">
     <div class="heading">
-        <div class="text-left">
+        <div>
             <h1>Create an Account</h1>
 <div class="textContent">
     <p>Lorem ipsum dolor </p>
@@ -27,18 +27,21 @@
 
 </v-col>
 </v-row>
-</div>
-
 <div class="submit pt-10">
      <v-row>
-         <v-col cols="6">
-              <input class="botton" type="submit" value="SIGN UP">
+         <v-col cols="4">
+             <v-btn class="textBotton" color="black" width="120" height="50">
+      SIGN UP
+    </v-btn>
          </v-col>
-         <v-col cols="6">
+         <v-col cols="8">
              <p>Lorem ipsum dolor sit amet consectetur</p>
          </v-col>
      </v-row>
 </div>
+</div>
+
+
     </div>
 </div>
   
@@ -60,6 +63,7 @@ input {
     border: 1px solid #000;
     height: 50px;
     width: 80%;
+    padding: 10px;
 }
 .botton {
     background-color: #000;
@@ -70,4 +74,13 @@ input {
     padding-top: 50px;
     line-height: 0.5;
 }
+.textBotton {
+    color: #fff;
+}
+@media screen and (max-width: 599px) {
+    .heading {
+        text-align: left;
+    }
+}
+
 </style>

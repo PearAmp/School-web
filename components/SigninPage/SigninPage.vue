@@ -57,6 +57,7 @@ input {
     border: 1px solid #000;
     height: 50px;
     width: 80%;
+    padding: 10px;
 }
 .botton {
     background-color: #000;
