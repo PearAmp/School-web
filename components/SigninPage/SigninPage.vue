@@ -1,7 +1,7 @@
 <template>
 <div class="container">
     <v-row class="text-center">
-        <v-col cols="12" md="6" class="topcontent">
+        <v-col cols="12" md="6" sm="6" class="topcontent">
             <h1>เข้าสู่ระบบ</h1>
             <div class="formInput mt-10">
                 <form action="" class="text-left">
@@ -28,7 +28,7 @@
                 </v-row>
             </div>
         </v-col>
-        <v-col cols="12" md="6" class="imgeBg"></v-col>
+        <v-col cols="12" md="6" sm="6" class="imgeBg"></v-col>
     </v-row>
     
 </div>
@@ -179,8 +179,8 @@ label {
 
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
-   .imgeBg {
-        display: none;
-    } 
+//    .imgeBg {
+//         display: none;
+//     } 
 }
 </style>
