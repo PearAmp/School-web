@@ -1,7 +1,7 @@
 <template>
 <div class="container">
     <v-row class="text-center">
-        <v-col cols="12" md="6" sm="6" class="topcontent">
+        <v-col cols="12" md="6" sm="12" class="topcontent">
             <h1>เข้าสู่ระบบ</h1>
             <div class="formInput mt-10">
                 <form action="" class="text-left">
@@ -28,7 +28,7 @@
                 </v-row>
             </div>
         </v-col>
-        <v-col cols="12" md="6" sm="6" class="imgeBg"></v-col>
+        <v-col cols="12" md="6" sm="12" class="imgeBg"></v-col>
     </v-row>
     
 </div>
@@ -50,7 +50,9 @@ export default {
   
 }
 h1 {
-    color: #4CAF50;
+    color: #22A45D;
+   font-family: 'Mitr', sans-serif;
+
 }
 .topcontent {
     margin-top: 15%;
@@ -78,6 +80,7 @@ label {
 .formInput {
     margin-left: 120px;
     margin-right: 120px;
+    font-family: 'DM Sans';
 }
 .ignor {
     text-align: right;
@@ -107,13 +110,13 @@ label {
 
 .signinbutton {
   background-color: white; 
-  color: #4CAF50; 
-  border: 2px solid #4CAF50;
+  color: #22A45D; 
+  border: 2px solid #22A45D;
   font-family: "Lucida Console", "Courier New", monospace;
 }
 
 .signinbutton:hover {
-  background-color: #4CAF50;
+  background-color: #22A45D;
   color: white;
 }
 .login {
@@ -128,7 +131,7 @@ label {
   cursor: pointer;
   border-radius: 50px;
   width: 25%;
-  background-color: #4CAF50;
+  background-color: #22A45D;
   font-family: "Lucida Console", "Courier New", monospace;
 }
 .space {
@@ -179,8 +182,13 @@ label {
 
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
-//    .imgeBg {
-//         display: none;
-//     } 
+   .imgeBg {
+        display: none;
+    } 
+    .topcontent {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    
 }
 </style>
