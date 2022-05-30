@@ -46,6 +46,7 @@ export default {
 .container {
   width: 100%;
   background-color: #fff;
+  padding: 0;
 }
 h1 {
     color: #22A45D;
@@ -143,6 +144,9 @@ font-style: normal;
 }
 
 @media screen and (max-width: 1420px){
+    .container {
+        padding: 0;
+    }
     .formInput {
     margin-left: 50px;
     margin-right: 50px;
@@ -162,6 +166,9 @@ font-style: normal;
 
 } 
 @media screen and (max-width: 599px) {
+    .container {
+        padding: 0;
+    }
     .imgeBg {
         display: none;
     }
@@ -193,7 +200,12 @@ font-style: normal;
 }
 
 }
+
 @media screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+        padding: 0;
+        margin: 0;
+    }
    .imgeBg {
         display: none;
     } 
