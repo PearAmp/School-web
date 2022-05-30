@@ -141,6 +141,7 @@ font-style: normal;
 .space {
     padding-left: 50px;
 }
+
 @media screen and (max-width: 1420px){
     .formInput {
     margin-left: 50px;
