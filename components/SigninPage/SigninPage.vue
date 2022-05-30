@@ -46,12 +46,12 @@ export default {
 .container {
   max-width: 1320px;
   background-color: #fff;
-
-  
 }
 h1 {
     color: #22A45D;
-   font-family: 'Mitr', sans-serif;
+   font-family: 'DM Sans', sans-serif;
+font-family: 'Mitr', sans-serif;
+font-family: 'Prompt', sans-serif;
 
 }
 .topcontent {
@@ -70,7 +70,8 @@ input[type=text] {
 
 label {
     color: #4CAF50;
-     font-family: "Lucida Console", "Courier New", monospace;
+     font-family: 'DM Sans';
+font-style: normal;
      font-weight: 700;
 }
 .imgeBg {
@@ -86,9 +87,10 @@ label {
     text-align: right;
     margin-right: 20%;
     p {
-        font-size: 0.9rem;
+        font-size: 1rem;
         color: #4CAF50;
-         font-family: "Lucida Console", "Courier New", monospace;
+         font-family: 'DM Sans';
+font-style: normal;
          font-weight: 700;
     }
   
@@ -112,7 +114,8 @@ label {
   background-color: white; 
   color: #22A45D; 
   border: 2px solid #22A45D;
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-family: 'DM Sans';
+font-style: normal;
 }
 
 .signinbutton:hover {
@@ -132,7 +135,8 @@ label {
   border-radius: 50px;
   width: 25%;
   background-color: #22A45D;
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-family: 'DM Sans';
+font-style: normal;
 }
 .space {
     padding-left: 50px;
@@ -178,6 +182,13 @@ label {
 }
 .ignor {
     margin-right: 10%;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+  
 }
 
 }
