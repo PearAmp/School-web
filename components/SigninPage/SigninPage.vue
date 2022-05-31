@@ -23,7 +23,7 @@
             <div class="botton mt-10">
                 <v-row class="d-flex justify-center">
                     <button class="login">เข้าสู่ระบบ</button>
-                    <div class="space"></div>
+                    <div class="space pl-10"></div>
                     <button class="signin signinbutton">สมัครสมาชิก</button> 
                 </v-row>
             </div>
@@ -139,9 +139,7 @@ font-style: normal;
   font-family: 'DM Sans';
 font-style: normal;
 }
-.space {
-    padding-left: 50px;
-}
+
 
 @media screen and (max-width: 1420px){
     .container {
@@ -204,7 +202,7 @@ font-style: normal;
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .container {
         padding: 0;
-        margin: 0;
+        margin: 0;;
     }
    .imgeBg {
         display: none;
