@@ -90,6 +90,42 @@ label {
   height: cover;
 }
 
+.signinbutton {
+    background-color: white;
+    color: #22a45d;
+    border: 2px solid #22a45d;
+    font-family: 'DM Sans';
+    font-style: normal;
+    text-align: center;
+    border-radius: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: 10px;
+    width: 40%;
+  }
+
+  .login {
+    border: none;
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #22a45d;
+    font-family: 'DM Sans';
+    font-style: normal;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 10px;
+    width: 40%;
+  }
+  .form-login {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
 @media screen and (max-width: 1420px) {
   .form-login {
     margin-left: 60px;
