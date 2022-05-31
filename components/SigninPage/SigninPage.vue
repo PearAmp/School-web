@@ -86,7 +86,7 @@ label {
 }
 
 .imgeBg {
-  background-image: url('https://i.guim.co.uk/img/media/39ee6db292459621464387d6a8d23cafdb2f8dc1/0_171_5120_3072/master/5120.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=d3aabb1d61cd1dde4068013746b6a7f0');
+  background-image: url('https://nationaltoday.com/wp-content/uploads/2021/07/shutterstock_1518533924-min.jpg');
   height: cover;
 }
 
