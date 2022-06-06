@@ -1,9 +1,9 @@
 <template>
   <div class="container d-flex justify-space-center">
     <v-row class="text-center">
-      <v-col cols="12" md="6" sm="12">
+      <v-col cols="12" md="6" sm="12 mt-10">
         <v-container fill-height fluid>
-          <v-row align="center" justify="center">
+          <v-row>
             <v-col>
               <h1>เข้าสู่ระบบ</h1>
               <form action="" class="text-left form-login">
@@ -28,7 +28,7 @@
                 <v-row class="justify-space-between">
                   <button class="login">เข้าสู่ระบบ</button>
 
-                  <button class="signin signinbutton">สมัครสมาชิก</button>
+                  <button class="signin signinbutton"><NuxtLink to="/register">สมัครสมาชิก</NuxtLink></button>
                 </v-row>
               </form>
             </v-col>
@@ -87,7 +87,7 @@ label {
 
 .imgeBg {
   background-image: url('https://nationaltoday.com/wp-content/uploads/2021/07/shutterstock_1518533924-min.jpg');
-  height: cover;
+  height: 1000px;
 }
 
 .signinbutton {

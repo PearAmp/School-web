@@ -2,11 +2,17 @@
 //
 // The variables you want to modify
 // $font-size-root: 20px;
+
+.v-application a {
+  color: #4caf50;
+}
+
+
 .v-main__wrap {
     display: flex;
   // background-color: black;
   width: 100%;
-  height: auto;
+  height: 100px;
   padding: 0;
   background-color: black;
   @media (min-width: 1904px) {
